@@ -14,7 +14,7 @@ public class ConfigClientApplication {
         SpringApplication.run(ConfigClientApplication.class, args);
     }
 
-    @Value("${what}")
+    @Value("${net.what}")
     String what;
     
     @RequestMapping(value = "/hello")
